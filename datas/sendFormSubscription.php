@@ -4,7 +4,7 @@
 
 				// Text to send
 				$texte = "Hi there,<br /><br />";
-				$texte = $texte . "Inscription from yoursitename.<br />";
+				$texte = $texte . "Inscription from sunkissed.band.<br />";
 				$texte = $texte . "The elements entered in the form are as follows :<br />";
 				$texte = $texte . "Email :  $mail<br /><br />";
 				$texte = $texte . "This is an automatic message, do not reply to it.";
@@ -12,13 +12,13 @@
 				$texte = stripslashes($texte);
 
 				/// Recipient and subject of the message
-				$destinataire = "contact@gmail.com"; // input your email here
-				$objet = "Newsletter subscription from your < site name >"; // input your domain name here
+				$destinataire = "sunkissedhills@gmail.com"; // input your email here
+				$objet = "Newsletter subscription from your sunkissed.band"; // input your domain name here
 
 				//Headers
 	      $headers = array(
 	                      'Content-type' => 'text/html',
-	                      'From' => 'form@yourbandname.com', // input your email from here
+	                      'From' => 'sunkissedhills@gmail.com', // input your email from here
 	                      'X-Mailer' => 'PHP/' . phpversion()
 	                  );
 
